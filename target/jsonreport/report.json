@@ -1,0 +1,271 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-18T10:14:33.767Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "runnerClass.HookRunner.browserStart1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "runnerClass.HookRunner.browser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login as a authenticated user",
+        "description": "",
+        "id": "login-feature;login-as-a-authenticated-user",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "runnerClass.HookRunner.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "runnerClass.HookRunner.browserClose1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4964000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigate to homepage",
+            "match": {
+              "location": "runnerClass.StepDef.user_navigate_to_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter correct \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 20
+                },
+                {
+                  "val": "admin123",
+                  "offset": 32
+                }
+              ],
+              "location": "runnerClass.StepDef.user_enter_correct(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3693000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on login button",
+            "match": {
+              "location": "runnerClass.StepDef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "success login to App",
+            "match": {
+              "location": "runnerClass.StepDef.success_login_to_App()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7047000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should logout",
+            "match": {
+              "location": "runnerClass.StepDef.user_should_logout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2325000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close browser",
+            "match": {
+              "location": "runnerClass.StepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-18T10:14:52.227Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "runnerClass.HookRunner.browserStart1()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "runnerClass.HookRunner.browser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Login as a authenticated user",
+        "description": "",
+        "id": "login-feature;login-as-a-authenticated-user;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "runnerClass.HookRunner.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "runnerClass.HookRunner.browserClose1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4379000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user navigate to homepage",
+            "match": {
+              "location": "runnerClass.StepDef.user_navigate_to_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter correct \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 20
+                },
+                {
+                  "val": "admin123",
+                  "offset": 32
+                }
+              ],
+              "location": "runnerClass.StepDef.user_enter_correct(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1739000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on login button",
+            "match": {
+              "location": "runnerClass.StepDef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "success login to App",
+            "match": {
+              "location": "runnerClass.StepDef.success_login_to_App()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7140000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should logout",
+            "match": {
+              "location": "runnerClass.StepDef.user_should_logout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2072000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "close browser",
+            "match": {
+              "location": "runnerClass.StepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "  Verify if user is able to Login in to the site",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeaturesFile/Login.feature",
+    "tags": []
+  }
+]
