@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-02-18T18:05:59.172Z",
+        "start_timestamp": "2020-03-08T12:32:43.984Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 4000000,
               "status": "passed"
             },
             "match": {
@@ -16,7 +16,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -52,7 +51,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14508000000,
+              "duration": 16081000000,
               "status": "passed"
             },
             "line": 6,
@@ -64,7 +63,7 @@
           },
           {
             "result": {
-              "duration": 709000000,
+              "duration": 425000000,
               "status": "passed"
             },
             "line": 7,
@@ -86,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 3961000000,
+              "duration": 3678000000,
               "status": "passed"
             },
             "line": 8,
@@ -98,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 208000000,
+              "duration": 1489000000,
               "status": "passed"
             },
             "line": 9,
@@ -110,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 7263000000,
+              "duration": 8059000000,
               "status": "passed"
             },
             "line": 10,
@@ -122,7 +121,7 @@
           },
           {
             "result": {
-              "duration": 192000000,
+              "duration": 270000000,
               "status": "passed"
             },
             "line": 11,
@@ -135,7 +134,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-02-18T18:06:26.148Z",
+        "start_timestamp": "2020-03-08T12:33:14.266Z",
         "before": [
           {
             "result": {
@@ -181,7 +180,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12969000000,
+              "duration": 13532000000,
               "status": "passed"
             },
             "line": 14,
@@ -193,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 356000000,
+              "duration": 297000000,
               "status": "passed"
             },
             "line": 15,
@@ -215,7 +214,7 @@
           },
           {
             "result": {
-              "duration": 1845000000,
+              "duration": 4745000000,
               "status": "passed"
             },
             "line": 16,
@@ -227,7 +226,7 @@
           },
           {
             "result": {
-              "duration": 78000000,
+              "duration": 89000000,
               "status": "passed"
             },
             "line": 17,
@@ -239,7 +238,7 @@
           },
           {
             "result": {
-              "duration": 7975000000,
+              "duration": 7467000000,
               "status": "passed"
             },
             "line": 18,
@@ -251,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 175000000,
+              "duration": 4216000000,
               "status": "passed"
             },
             "line": 19,

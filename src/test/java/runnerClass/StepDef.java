@@ -20,7 +20,7 @@ public class StepDef {
 	@Given("^user navigate to homepage$")
 	public void user_navigate_to_homepage() throws Throwable {
 		String path = System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", path + "\\resource\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", path + "//resource//chromedriver//chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
 		driver.manage().window().maximize();
