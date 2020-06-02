@@ -1,4 +1,4 @@
-Feature: Login Feature
+Feature: Hooks Feature
   Verify if user is able to Login in to the site
 
 @E2E

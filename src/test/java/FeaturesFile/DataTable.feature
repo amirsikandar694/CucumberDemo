@@ -1,4 +1,4 @@
-Feature: Login Feature
+Feature: DataTable Feature
   Verify if user is able to Login in to the site
 
 @Smoke
