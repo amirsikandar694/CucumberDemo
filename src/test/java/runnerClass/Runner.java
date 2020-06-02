@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "src/test/java/FeaturesFile/Login.feature",
+features = "src/test/java/FeaturesFile",
 plugin = { "pretty","html:target/htmlreport","json:target/jsonreport/report.json"}, //report format
 dryRun=false,			//check all the steps are present or not
 strict=false,
