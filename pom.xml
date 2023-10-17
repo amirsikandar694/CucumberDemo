@@ -53,16 +53,33 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>3.141.59</version>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.0.3</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.google.guava</groupId>
+					<artifactId>guava</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
+
+			<dependency>
+				<groupId>com.google.guava</groupId>
+				<artifactId>guava</artifactId>
+				<version>31.0.1-jre</version>
+			</dependency>
+
+
+
+
 		<dependency>
-			<groupId>net.masterthought</groupId>
-			<artifactId>cucumber-reporting</artifactId>
-			<version>5.0.2</version>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.12.1</version>
 		</dependency>
+
 
 	</dependencies>
 
